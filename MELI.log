@@ -1,0 +1,177 @@
+
+--- Job MELI.gms Start 01/10/23 04:50:35 30.3.0 rc5da09e WEX-WEI x86 64bit/MS Windows
+--- GAMS Parameters defined
+    Input C:\GAMS\win64\30.3\models\MELI\MELI.gms
+    PageWidth 80
+    PageSize 0
+    PageContr 3
+    Action CE
+    ScrDir C:\GAMS\win64\30.3\models\MELI\225a\
+    SysDir C:\GAMS\win64\30.3\
+    WorkDir C:\GAMS\win64\30.3\models\MELI\
+    LogOption 3
+    DFormat 0
+    TFormat 0
+    ErrorLog 99
+    IDE 1
+GAMS 30.3.0   Copyright (C) 1987-2020 GAMS Development. All rights reserved
+Licensee: Francisco Castro, Single User License          G190304:1744CO-WIN
+          Hartree Partners, Consulting Mexico City                  DC14807
+--- Starting compilation
+--- MELI.gms(117) 3 Mb
+--- call gdxxrw Inputdata\Input.xlsx @TempFiles\sets.tmp o=GdxFiles\sets.gdx MaxDupeErrors=99 CheckDate 
+
+GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
+Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
+Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets.gdx
+No new file written (CheckDate is active)
+Total time = 438 Ms
+--- MELI.gms(120) 3 Mb
+--- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets.gdx
+--- MELI.gms(148) 4 Mb
+--- call gdxxrw.exe Inputdata\Input.xlsx set=conex rng=rnt!a4 rDim=2 o=GdxFiles\sets2.gdx MaxDupeErrors=99
+
+GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
+Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
+Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets2.gdx
+Total time = 2094 Ms
+--- MELI.gms(149) 4 Mb
+--- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets2.gdx
+--- MELI.gms(155) 4 Mb
+--- call gdxxrw.exe Inputdata\Input.xlsx set=ftec rng=capa0!a3 rDim=2 o=GdxFiles\sets3.gdx MaxDupeErrors=99
+
+GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
+Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
+Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets3.gdx
+Total time = 1969 Ms
+--- MELI.gms(156) 4 Mb
+--- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets3.gdx
+--- MELI.gms(162) 4 Mb
+--- call gdxxrw.exe Inputdata\Input.xlsx set=freg rng=freg!a2 rDim=2 cDim=1 o=GdxFiles\sets4.gdx MaxDupeErrors=99
+
+GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
+Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
+Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets4.gdx
+Total time = 1969 Ms
+--- MELI.gms(163) 4 Mb
+--- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets4.gdx
+--- MELI.gms(169) 4 Mb
+--- call gdxxrw.exe Inputdata\Input.xlsx set=sreg rng=sreg!a4 rDim=2 o=GdxFiles\sets5.gdx MaxDupeErrors=99
+
+GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
+Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
+Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets5.gdx
+Total time = 2031 Ms
+--- MELI.gms(170) 4 Mb
+--- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets5.gdx
+--- MELI.gms(314) 4 Mb
+--- call gdxxrw Inputdata\Input.xlsx @TempFiles\input.tmp o=GdxFiles\input.gdx MaxDupeErrors=99 CheckDate 
+
+GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
+Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
+Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\input.gdx
+No new file written (CheckDate is active)
+Total time = 437 Ms
+--- MELI.gms(317) 4 Mb
+--- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\input.gdx
+--- MELI.gms(331) 20 Mb
+--- call gdxxrw Inputdata\Input.xlsx cmerge=1 MaxDupeErrors=99 CheckDate @TempFiles\input2.tmp o=GdxFiles\input2.gdx 
+
+GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
+Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
+Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\input2.gdx
+No new file written (CheckDate is active)
+Total time = 438 Ms
+--- MELI.gms(334) 20 Mb
+--- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\input2.gdx
+--- MELI.gms(344) 20 Mb
+--- call gdxxrw.exe Inputdata\Input.xlsx skipEmpty=0 par=branch rng=rnt!a3 rDim=2 cDim=1  o=GdxFiles\input3.gdx
+
+GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
+Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
+Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\input3.gdx
+Value expected in cell: rnt!C4; found PUEBLA
+Value expected in cell: rnt!D4; found CDMX
+Value expected in cell: rnt!C5; found PUEBLA
+Value expected in cell: rnt!D5; found GUADALAJARA
+Value expected in cell: rnt!C6; found PUEBLA
+Additional errors suppressed
+Total number of bad values for symbol branch = 26
+Total time = 2000 Ms
+--- MELI.gms(345) 20 Mb
+--- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\input3.gdx
+--- MELI.gms(976) 20 Mb
+--- Starting execution: elapsed 0:00:12.357
+--- MELI.gms(605) 23 Mb
+--- Generating LP model MELI
+--- MELI.gms(688) 538 Mb
+--- LOOPS s = Base
+---   1,926,653 rows  887,713 columns  5,700,729 non-zeroes
+--- Executing CPLEX: elapsed 0:00:18.365
+
+IBM ILOG CPLEX   30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading parameter(s) from "C:\GAMS\win64\30.3\models\MELI\cplex.opt"
+>>  nodefileind 2
+>>  workmem 1000
+>>  names no
+>>  lpmethod=4
+>>  *perind=1
+>>  *threads 5
+>>  *nodesel 2
+>>  *varsel 3
+>>  *tuning tuning-result.txt
+Finished reading from "C:\GAMS\win64\30.3\models\MELI\cplex.opt"
+Reading data...
+Starting Cplex...
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_LPMethod                                4
+CPXPARAM_Threads                                 1
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Strategy_File                       2
+CPXPARAM_Barrier_Limits_Iteration                2000000000
+CPXPARAM_TimeLimit                               28800
+CPXPARAM_WorkMem                                 1000
+CPXPARAM_Tune_TimeLimit                          5760
+Row 'c1926650' infeasible, all entries at implied bounds.
+Presolve time = 0.38 sec. (363.05 ticks)
+LP status(3): infeasible
+Cplex Time: 0.39sec (det. 368.56 ticks)
+Rerunning with presolve turned off and solving with LPMETHOD=0
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 2
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_LPMethod                                1
+CPXPARAM_Threads                                 1
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Strategy_File                       2
+CPXPARAM_Barrier_Limits_Iteration                2000000000
+CPXPARAM_TimeLimit                               28800
+CPXPARAM_WorkMem                                 1000
+CPXPARAM_Tune_TimeLimit                          5760
+
+Iteration log . . .
+Iteration:     1    Scaled infeas =         26078.102509
+Iteration: 11311    Scaled infeas =         24047.355035
+Iteration: 11441    Scaled infeas =         23742.588077
+Elapsed time = 3.19 sec. (10000.59 ticks, 15367 iterations)
+Switched to devex.
+Iteration: 15716    Scaled infeas =          5149.062525
+Iteration: 21944    Scaled infeas =          2933.652928
+Perturbation started.
+Iteration: 22600    Scaled infeas =          2933.652049
+Iteration: 28846    Scaled infeas =          2784.943894
+Iteration: 38847    Scaled infeas =          2780.037834
+Iteration: 48848    Scaled infeas =          2780.032852
+Iteration: 58849    Scaled infeas =          2780.027833
+Iteration: 68333    Scaled infeas =          2634.210225
+Iteration: 72715    Scaled infeas =          2396.003467
+Iteration: 76556    Scaled infeas =          1582.500689
+Iteration: 80620    Scaled infeas =          1015.821849
+Elapsed time = 13.03 sec. (20002.82 ticks, 84045 iterations)
+Iteration: 84945    Scaled infeas =           769.307347
+Sending CtrlBreakp signal
+Exit code = -1073741510
