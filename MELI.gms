@@ -32,6 +32,7 @@ $if not set resultdir    $setglobal      resultdir Results\
 
 $if not set OPTFILE      $set OPTFILE    1
 $if not set HOURS        $set HOURS      48
+$if not set TEST         $set TEST       1
 
 *------------------------------------------------------------------------------
 *------------------------------------------------------------------------------
