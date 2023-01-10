@@ -19,9 +19,6 @@
 *================================================================================================================================================
 
 $eolcom //
-$eolcom #
-$eolcom !!
-$inlinecom /* */
 $phantom emptyset
 $setenv GdxCompress 1
 
@@ -592,8 +589,7 @@ Model MELI /all/;
 DEMAND.FX(r,t,y)                   = load(r,t,y);
 EXPORT.FX(r,rr,t,y)$(not km(r,rr)) = 0;
 EXPORT.FX(rr,r,t,y)$(not km(rr,r)) = 0;
-*INVE.FX(tec,f,r,"2020")            = little;
-*INVE.UP("shed",f,r,y)              = inf;
+INVE.FX("shed",f,r,y)              = little;
 DECO.FX(ren,f,r,y)                 = 0;
 DECO.FX(sto,f,r,y)                 = 0;
 
