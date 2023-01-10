@@ -420,8 +420,8 @@ as(r,t,y)             = 0.1 * load(r,t,y);
 as_res                = 0.05;
 
 * Ajdust real availability
-avail("CCGT","07_PEN",y)  = 0.40;
-avail("CCGT","08_BCA",y)  = 0.40;
+*avail("CCGT","07_PEN",y)  = 0.40;
+*avail("CCGT","08_BCA",y)  = 0.40;
 
 display time, load, profile, avail, eff, HR, rup, rdo, ntc0, km, ACDC, annuity, cost_fuel, cost_inv, cost_fix, cost_var,cost_NTC, capa0, as, as_res, co2p, CR, pmin, pmax;
 
@@ -589,7 +589,7 @@ Model MELI /all/;
 DEMAND.FX(r,t,y)                   = load(r,t,y);
 EXPORT.FX(r,rr,t,y)$(not km(r,rr)) = 0;
 EXPORT.FX(rr,r,t,y)$(not km(rr,r)) = 0;
-INVE.FX("shed",f,r,y)              = little;
+INVE.FX(tec,f,r,"2020")            = 0;
 DECO.FX(ren,f,r,y)                 = 0;
 DECO.FX(sto,f,r,y)                 = 0;
 
@@ -609,7 +609,7 @@ loop(s,
 
 if(ord(s)=1,
 
-RES.FX("2020")          = 28;
+*RES.FX("2020")          = 28;
 RES.FX("2025")          = 30.5;
 RES.FX("2030")          = 34.6;
 RES.FX("2035")          = 41.2;
@@ -624,7 +624,7 @@ NTCinv.FX(r,rr,y)       = 0;
 
 if(ord(s)=2,
 
-RES.FX("2020")          = 28;
+*RES.FX("2020")          = 28;
 RES.UP("2025")          = inf;
 RES.UP("2030")          = inf;
 RES.UP("2035")          = inf;
@@ -642,7 +642,7 @@ cost_var(tec,f,y)$(ftec(tec,f))  = (var_om(tec,y) + cost_fuel(f,y)*HR(tec,y) + c
 *-----------------------------------
 if(ord(s)=3,
 
-RES.FX("2020")          = 28;
+*RES.FX("2020")          = 28;
 RES.UP("2025")          = inf;
 RES.UP("2030")          = inf;
 RES.UP("2035")          = inf;

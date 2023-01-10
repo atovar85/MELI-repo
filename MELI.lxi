@@ -1,28 +1,43 @@
 B 3 C o m p i l a t i o n
-B 1167 Include File Summary
-B 1219 E x e c u t i o n
-I 1219 time
-I 53783 load
-I 54221 profile
-I 54636 avail
-I 54804 eff
-I 54828 HR
-I 54842 rup
-I 54862 rdo
-I 54882 ntc0
-I 54900 km
-I 54920 ACDC
-I 54940 annuity
-I 54964 cost_fuel
-I 54978 cost_inv
-I 55002 cost_fix
-I 55026 cost_var
-I 55047 cost_NTC
-I 55049 capa0
-I 55101 as
-I 55540 as_res
-I 55544 co2p
-I 55549 CR
-I 55561 pmin
-I 55693 pmax
-B 55864 Model Statistics    SOLVE MELI Using LP From line 688
+B 1168 Include File Summary
+B 1220 E x e c u t i o n
+I 1220 time
+I 53784 load
+I 61566 profile
+I 68776 avail
+I 68944 eff
+I 68968 HR
+I 68982 rup
+I 69002 rdo
+I 69022 ntc0
+I 69040 km
+I 69060 ACDC
+I 69080 annuity
+I 69104 cost_fuel
+I 69118 cost_inv
+I 69142 cost_fix
+I 69166 cost_var
+I 69187 cost_NTC
+I 69189 capa0
+I 69241 as
+I 77024 as_res
+I 77028 co2p
+I 77033 CR
+I 77045 pmin
+I 77177 pmax
+B 77348 Model Statistics    SOLVE MELI Using LP From line 687
+B 77369 Solution Report     SOLVE MELI Using LP From line 687
+B 77417 Model Statistics    SOLVE MELI Using LP From line 687
+B 77438 Solution Report     SOLVE MELI Using LP From line 687
+B 77486 Model Statistics    SOLVE MELI Using LP From line 687
+B 77507 Solution Report     SOLVE MELI Using LP From line 687
+B 77555 E x e c u t i o n
+I 77555 r0
+I 77571 r1
+I 78248 r2
+I 238955 r3
+I 266606 r4
+I 266678 r5
+I 266709 r6
+I 266781 r7
+I 272766 r8
