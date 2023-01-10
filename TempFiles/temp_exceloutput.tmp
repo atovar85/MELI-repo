@@ -1,0 +1,9 @@
+par=r1       rng=sys!a3           rdim=2
+par=r2       rng=dis!a3           cdim=4
+par=r3       rng=lmp!a6           rdim=1
+par=r4       rng=trn!a3           rdim=2
+par=r5       rng=exp!a3           rdim=1
+par=r6       rng=uti!a3           rdim=2
+par=r7       rng=reg!a3           rdim=2
+par=r8       rng=pst!a3           rdim=2
+par=r0       rng=sts!a3           rdim=1

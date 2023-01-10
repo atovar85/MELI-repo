@@ -1,0 +1,9 @@
+nodefileind 2
+workmem 1000
+names no
+lpmethod=4
+*perind=1
+*threads 5
+*nodesel 2
+*varsel 3
+*tuning tuning-result.txt

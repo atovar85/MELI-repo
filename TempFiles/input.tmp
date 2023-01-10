@@ -1,0 +1,9 @@
+         set=time            rng=time!a2:k8761    rdim=8
+         par=i_load          rng=load!b11         rdim=1  cdim=1
+         par=i_grow          rng=grow!a2          rdim=1  cdim=1
+         par=i_wind          rng=wind!b11         rdim=1  cdim=1
+         par=i_solar         rng=solar!b11        rdim=1  cdim=1
+         par=i_hydro         rng=hydro!b9         rdim=1  cdim=1
+         par=i_geoth         rng=geoth!b9         rdim=1  cdim=1
+         par=i_bioen         rng=bioen!b9         rdim=1  cdim=1
+         par=i_capa0         rng=capa0!a2         rdim=2  cdim=1

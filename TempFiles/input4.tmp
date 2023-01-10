@@ -1,0 +1,2 @@
+         par=i_co2        rng=scen!a2           rdim=1   cdim=1
+         par=i_fuel       rng=fuel!a2           rdim=1   cdim=1
