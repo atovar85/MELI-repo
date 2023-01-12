@@ -1,43 +1,43 @@
 B 3 C o m p i l a t i o n
-B 1168 Include File Summary
-B 1220 E x e c u t i o n
-I 1220 time
-I 53784 load
-I 61566 profile
-I 68776 avail
-I 68944 eff
-I 68968 HR
-I 68982 rup
-I 69002 rdo
-I 69022 ntc0
-I 69040 km
-I 69060 ACDC
-I 69080 annuity
-I 69104 cost_fuel
-I 69118 cost_inv
-I 69142 cost_fix
-I 69166 cost_var
-I 69187 cost_NTC
-I 69189 capa0
-I 69241 as
-I 77024 as_res
-I 77028 co2p
-I 77033 CR
-I 77045 pmin
-I 77177 pmax
-B 77348 Model Statistics    SOLVE MELI Using LP From line 687
-B 77369 Solution Report     SOLVE MELI Using LP From line 687
-B 77417 Model Statistics    SOLVE MELI Using LP From line 687
-B 77438 Solution Report     SOLVE MELI Using LP From line 687
-B 77486 Model Statistics    SOLVE MELI Using LP From line 687
-B 77507 Solution Report     SOLVE MELI Using LP From line 687
-B 77555 E x e c u t i o n
-I 77555 r0
-I 77571 r1
-I 78248 r2
-I 238955 r3
-I 266606 r4
-I 266678 r5
-I 266709 r6
-I 266781 r7
-I 272766 r8
+B 1169 Include File Summary
+B 1221 E x e c u t i o n
+I 1221 time
+I 53785 load
+I 61567 profile
+I 68777 avail
+I 68945 eff
+I 68969 HR
+I 68983 rup
+I 69003 rdo
+I 69023 ntc0
+I 69041 km
+I 69061 ACDC
+I 69081 annuity
+I 69105 cost_fuel
+I 69119 cost_inv
+I 69143 cost_fix
+I 69167 cost_var
+I 69188 cost_NTC
+I 69190 capa0
+I 69242 as
+I 77025 as_res
+I 77029 co2p
+I 77034 CR
+I 77046 pmin
+I 77178 pmax
+B 77349 Model Statistics    SOLVE MELI Using LP From line 687
+B 77370 Solution Report     SOLVE MELI Using LP From line 687
+B 77418 Model Statistics    SOLVE MELI Using LP From line 687
+B 77439 Solution Report     SOLVE MELI Using LP From line 687
+B 77487 Model Statistics    SOLVE MELI Using LP From line 687
+B 77508 Solution Report     SOLVE MELI Using LP From line 687
+B 77556 E x e c u t i o n
+I 77556 r0
+I 77572 r1
+I 78249 r2
+I 238956 r3
+I 266607 r4
+I 266679 r5
+I 266710 r6
+I 266782 r7
+I 272799 r8
