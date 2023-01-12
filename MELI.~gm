@@ -593,8 +593,8 @@ INVE.FX(tec,f,r,"2020")            = 0;
 DECO.FX(ren,f,r,y)                 = 0;
 DECO.FX(sto,f,r,y)                 = 0;
 
-as(r,t,y)             = 0;
-as_res                = 0;
+*as(r,t,y)             = 0;
+*as_res                = 0;
 
 
 *-----------------------------------
@@ -852,6 +852,7 @@ r6(r,rr,s,y)$(conex(r,rr))   =  (sum(t$(EXPORT.L(r,rr,t,y)<>0),abs(EXPORT.L(r,rr
 *===================================
 
 r7("TWh","Load"                 ,r,s,y)       = sum(t,load(r,t,y)) / th * sc;
+r7("GW","Max Demand"            ,r,s,y)       = smax(t,load(r,t,y));
 
 r7("Bn USD","Sunk Costs"        ,r,s,y)       = (sum((tec,f),(capa0(tec,f,r) - RETIRE.L(tec,f,r,y)) * cost_inv(tec,"2020"))+(sum(rr,ntc0(r,rr)*km(r,rr))/2 * cost_NTC)) * sc / th + eps;
 r7("Bn USD","Investment Costs"  ,r,s,y)       = INVCOST.L(r,y) * sc / th + eps;
@@ -918,7 +919,7 @@ r8("other","other"             ,r,s,y)        = 100 - sum((thm,f),r8(thm,f,r,s,y
 display r0,r1,r2,r3,r4,r5,r6,r7,r8;
 
 *================================================================================================================================================
-* �OUTPUT GDX FILES
+* OUTPUT GDX FILES
 *================================================================================================================================================
 
 * Export results into GDX file

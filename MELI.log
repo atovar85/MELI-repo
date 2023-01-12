@@ -1,5 +1,5 @@
 
---- Job MELI.gms Start 01/12/23 18:33:39 30.3.0 rc5da09e WEX-WEI x86 64bit/MS Windows
+--- Job MELI.gms Start 01/12/23 21:46:04 30.3.0 rc5da09e WEX-WEI x86 64bit/MS Windows
 --- GAMS Parameters defined
     Input C:\GAMS\win64\30.3\models\MELI\MELI.gms
     PageWidth 80
@@ -24,7 +24,8 @@ Licensee: Francisco Castro, Single User License          G190304:1744CO-WIN
 GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
 Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
 Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets.gdx
-Total time = 2344 Ms
+No new file written (CheckDate is active)
+Total time = 485 Ms
 --- MELI.gms(120) 4 Mb
 --- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets.gdx
 --- MELI.gms(148) 4 Mb
@@ -33,7 +34,7 @@ Total time = 2344 Ms
 GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
 Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
 Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets2.gdx
-Total time = 2328 Ms
+Total time = 2266 Ms
 --- MELI.gms(149) 4 Mb
 --- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets2.gdx
 --- MELI.gms(155) 4 Mb
@@ -42,7 +43,7 @@ Total time = 2328 Ms
 GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
 Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
 Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets3.gdx
-Total time = 2312 Ms
+Total time = 2109 Ms
 --- MELI.gms(156) 4 Mb
 --- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets3.gdx
 --- MELI.gms(162) 4 Mb
@@ -51,7 +52,7 @@ Total time = 2312 Ms
 GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
 Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
 Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets4.gdx
-Total time = 2125 Ms
+Total time = 2109 Ms
 --- MELI.gms(163) 4 Mb
 --- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets4.gdx
 --- MELI.gms(169) 4 Mb
@@ -60,7 +61,7 @@ Total time = 2125 Ms
 GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
 Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
 Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets5.gdx
-Total time = 2156 Ms
+Total time = 2094 Ms
 --- MELI.gms(170) 4 Mb
 --- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\sets5.gdx
 --- MELI.gms(314) 4 Mb
@@ -69,7 +70,8 @@ Total time = 2156 Ms
 GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
 Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
 Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\input.gdx
-Total time = 4093 Ms
+No new file written (CheckDate is active)
+Total time = 391 Ms
 --- MELI.gms(317) 4 Mb
 --- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\input.gdx
 --- MELI.gms(331) 20 Mb
@@ -78,7 +80,8 @@ Total time = 4093 Ms
 GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
 Input file : C:\GAMS\win64\30.3\models\MELI\Inputdata\Input.xlsx
 Output file: C:\GAMS\win64\30.3\models\MELI\GdxFiles\input2.gdx
-Total time = 2484 Ms
+No new file written (CheckDate is active)
+Total time = 438 Ms
 --- MELI.gms(334) 20 Mb
 --- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\input2.gdx
 --- MELI.gms(344) 20 Mb
@@ -94,27 +97,27 @@ Value expected in cell: rnt!D5; found GUADALAJARA
 Value expected in cell: rnt!C6; found PUEBLA
 Additional errors suppressed
 Total number of bad values for symbol branch = 26
-Total time = 2125 Ms
+Total time = 2156 Ms
 --- MELI.gms(345) 20 Mb
 --- GDXin=C:\GAMS\win64\30.3\models\MELI\GdxFiles\input3.gdx
 --- MELI.gms(976) 20 Mb
---- Starting execution: elapsed 0:00:21.012
+--- Starting execution: elapsed 0:00:13.059
 --- MELI.gms(604) 40 Mb
 --- Generating LP model MELI
 --- MELI.gms(538) 329 Mb  6 secs
 --- MELI.gms(543) 2717 Mb  3 secs
---- MELI.gms(547) 5872 Mb  19 secs
---- MELI.gms(548) 7243 Mb  21 secs
---- MELI.gms(558) 7243 Mb  340 secs
+--- MELI.gms(547) 5872 Mb  18 secs
+--- MELI.gms(548) 7243 Mb  20 secs
+--- MELI.gms(558) 7243 Mb  265 secs
 --- MELI.gms(561) 7944 Mb  13 secs
 --- MELI.gms(562) 8392 Mb  4 secs
---- MELI.gms(563) 8705 Mb  4 secs
+--- MELI.gms(563) 8705 Mb  3 secs
 --- MELI.gms(564) 9019 Mb  4 secs
 --- MELI.gms(578) 9040 Mb  3 secs
 --- MELI.gms(687) 9316 Mb  40 secs
 --- LOOPS s = Base
 ---   34,436,093 rows  15,311,329 columns  102,251,781 non-zeroes
---- Executing CPLEX: elapsed 0:08:15.565
+--- Executing CPLEX: elapsed 0:06:51.214
 --- MELI.gms(687) 9316 Mb  45 secs
 
 IBM ILOG CPLEX   30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
@@ -151,14 +154,14 @@ Aggregator has done 84893 substitutions...
 LP Presolve eliminated 32898482 rows and 14558095 columns.
 Aggregator did 84893 substitutions.
 Reduced LP has 668341 rows, 1579375 columns, and 4872756 nonzeros.
-Presolve time = 39.27 sec. (33661.63 ticks)
+Presolve time = 42.25 sec. (33661.63 ticks)
 Parallel mode: none, using 1 thread for barrier
 
 ***NOTE: Found 3 dense columns.
 
 Number of nonzeros in lower triangle of A*A' = 8514843
 Using Nested Dissection ordering
-Total time for automatic ordering = 6.17 sec. (5523.62 ticks)
+Total time for automatic ordering = 6.53 sec. (5523.62 ticks)
 Summary statistics for Cholesky factor:
   Rows in Factor            = 668344
   Integer space required    = 4511212
@@ -279,7 +282,7 @@ Summary statistics for Cholesky factor:
  111   6.7129285e+03   6.7129295e+03  1.46e-05  0.00e+00  6.01e-03  8.42e+08
  112   6.7129289e+03   6.7129290e+03  9.88e-06  0.00e+00  1.20e-03  4.72e+09
  113   6.7129290e+03   6.7129290e+03  3.76e-06  0.00e+00  2.23e-04  2.59e+10
-Barrier time = 345.89 sec. (740832.04 ticks)
+Barrier time = 363.70 sec. (740832.04 ticks)
 
 Primal crossover.
   Primal:  Fixing 727499 variables.
@@ -319,7 +322,7 @@ Primal crossover.
    262668 PMoves:  Infeasibility  7.27548396e-03  Objective  6.71293002e+03
    253805 PMoves:  Infeasibility  3.31623943e-03  Objective  6.71292940e+03
    246282 PMoves:  Infeasibility  3.37104025e-03  Objective  6.71292940e+03
-   Elapsed crossover time = 6.72 sec. (10032.38 ticks, 246282 PMoves)
+   Elapsed crossover time = 6.83 sec. (10032.38 ticks, 246282 PMoves)
    245339 PMoves:  Infeasibility  3.37104025e-03  Objective  6.71292940e+03
    244399 PMoves:  Infeasibility  3.37104025e-03  Objective  6.71292940e+03
    243219 PMoves:  Infeasibility  3.37104025e-03  Objective  6.71292940e+03
@@ -377,17 +380,17 @@ Primal crossover.
   Dual:  Pushed 24902, exchanged 27913.
 Using devex.
 Removing shift (1).
-Elapsed time = 407.39 sec. (799083.80 ticks, 1 iterations)
+Elapsed time = 428.44 sec. (799083.80 ticks, 1 iterations)
 
 Iteration log . . .
 Iteration:     1    Scaled infeas =             0.000000
 Iteration:     2    Objective     =          6712.928539
 Iteration:  1947    Objective     =          6712.928971
-Total crossover time = 64.13 sec. (48652.33 ticks)
+Total crossover time = 66.97 sec. (48652.33 ticks)
 
-Total time on 1 threads = 451.61 sec. (824106.93 ticks)
+Total time on 1 threads = 475.41 sec. (824106.93 ticks)
 LP status(1): optimal
-Cplex Time: 451.73sec (det. 824205.46 ticks)
+Cplex Time: 475.56sec (det. 824205.46 ticks)
 
 Optimal solution found.
 Simplex iterations after crossover:  2564
@@ -399,13 +402,13 @@ Objective :        6712.928971
 --- Reading solution for model MELI
 --- MELI.gms(687) 4038 Mb  11 secs
 --- GDX Point C:\GAMS\win64\30.3\models\MELI\MELI_p1.gdx
---- Executing after solve: elapsed 0:17:02.101
+--- Executing after solve: elapsed 0:16:00.540
 --- MELI.gms(604) 4533 Mb  21 secs
 --- Generating LP model MELI
---- MELI.gms(538) 4668 Mb  5 secs
+--- MELI.gms(538) 4669 Mb  6 secs
 --- MELI.gms(547) 9621 Mb  17 secs
 --- MELI.gms(548) 10992 Mb  19 secs
---- MELI.gms(558) 10992 Mb  250 secs
+--- MELI.gms(558) 10992 Mb  255 secs
 --- MELI.gms(561) 11693 Mb  12 secs
 --- MELI.gms(562) 12141 Mb  4 secs
 --- MELI.gms(563) 12455 Mb  3 secs
@@ -414,7 +417,7 @@ Objective :        6712.928971
 --- MELI.gms(687) 12792 Mb  40 secs
 --- LOOPS s = Least-Cost
 ---   34,436,093 rows  15,311,329 columns  102,251,781 non-zeroes
---- Executing CPLEX: elapsed 0:23:42.851
+--- Executing CPLEX: elapsed 0:22:45.502
 --- MELI.gms(687) 12792 Mb  45 secs
 
 IBM ILOG CPLEX   30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
@@ -451,7 +454,7 @@ Aggregator has done 92655 substitutions...
 LP Presolve eliminated 32821934 rows and 14542518 columns.
 Aggregator did 92655 substitutions.
 Reduced LP has 676156 rows, 1596259 columns, and 4991577 nonzeros.
-Presolve time = 40.01 sec. (34056.59 ticks)
+Presolve time = 38.17 sec. (34056.59 ticks)
 Parallel mode: none, using 1 thread for barrier
 
 ***NOTE: Found 3 dense columns.
@@ -586,7 +589,7 @@ Summary statistics for Cholesky factor:
  118   6.2297182e+03   6.2297170e+03  2.58e-05  1.33e-11  1.41e-02  2.25e+09
  119   6.2297184e+03   6.2297184e+03  4.33e-06  1.32e-12  8.10e-04  3.92e+10
  120   6.2297184e+03   6.2297184e+03  1.04e-06  9.10e-14  4.13e-05  7.68e+11
-Barrier time = 476.64 sec. (1080834.02 ticks)
+Barrier time = 483.19 sec. (1080834.02 ticks)
 
 Primal crossover.
   Primal:  Fixing 975742 variables.
@@ -678,7 +681,7 @@ Primal crossover.
    280828 PMoves:  Infeasibility  1.23391791e-03  Objective  6.22971844e+03
    268122 PMoves:  Infeasibility  1.19645631e-03  Objective  6.22971844e+03
    179599 PMoves:  Infeasibility  1.15124023e-03  Objective  6.22971844e+03
-   Elapsed crossover time = 17.91 sec. (20022.74 ticks, 177098 PMoves)
+   Elapsed crossover time = 18.06 sec. (20022.74 ticks, 177098 PMoves)
    171204 PMoves:  Infeasibility  1.06431073e-03  Objective  6.22971844e+03
    159984 PMoves:  Infeasibility  9.15190452e-04  Objective  6.22971844e+03
    150883 PMoves:  Infeasibility  8.26366634e-04  Objective  6.22971844e+03
@@ -723,15 +726,15 @@ Primal crossover.
         0 DMoves:  Infeasibility  4.71116076e-05  Objective  6.22971844e+03
   Dual:  Pushed 29135, exchanged 27545.
 Using devex.
-Elapsed time = 548.91 sec. (1148929.85 ticks, 1 iterations)
+Elapsed time = 554.14 sec. (1148929.85 ticks, 1 iterations)
 
 Iteration log . . .
 Iteration:     1    Objective     =          6229.718444
-Total crossover time = 64.59 sec. (54852.61 ticks)
+Total crossover time = 68.94 sec. (54852.61 ticks)
 
-Total time on 1 threads = 583.38 sec. (1170710.67 ticks)
+Total time on 1 threads = 592.58 sec. (1170710.67 ticks)
 LP status(1): optimal
-Cplex Time: 583.49sec (det. 1170809.20 ticks)
+Cplex Time: 592.73sec (det. 1170809.20 ticks)
 
 Optimal solution found.
 Simplex iterations after crossover:  62
@@ -743,13 +746,13 @@ Objective :        6229.718444
 --- Reading solution for model MELI
 --- MELI.gms(687) 5284 Mb  9 secs
 --- GDX Point C:\GAMS\win64\30.3\models\MELI\MELI_p2.gdx
---- Executing after solve: elapsed 0:34:43.632
+--- Executing after solve: elapsed 0:33:59.491
 --- MELI.gms(604) 5284 Mb  19 secs
 --- Generating LP model MELI
 --- MELI.gms(538) 5419 Mb  6 secs
---- MELI.gms(547) 9630 Mb  16 secs
+--- MELI.gms(547) 9630 Mb  17 secs
 --- MELI.gms(548) 11000 Mb  18 secs
---- MELI.gms(558) 11000 Mb  245 secs
+--- MELI.gms(558) 11000 Mb  260 secs
 --- MELI.gms(561) 11701 Mb  12 secs
 --- MELI.gms(562) 12149 Mb  4 secs
 --- MELI.gms(563) 12463 Mb  3 secs
@@ -758,7 +761,7 @@ Objective :        6229.718444
 --- MELI.gms(687) 12799 Mb  40 secs
 --- LOOPS s = User-def
 ---   34,436,093 rows  15,311,329 columns  102,251,781 non-zeroes
---- Executing CPLEX: elapsed 0:41:15.532
+--- Executing CPLEX: elapsed 0:40:47.745
 --- MELI.gms(687) 12799 Mb  45 secs
 
 IBM ILOG CPLEX   30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
@@ -795,14 +798,14 @@ Aggregator has done 92655 substitutions...
 LP Presolve eliminated 32821934 rows and 14542518 columns.
 Aggregator did 92655 substitutions.
 Reduced LP has 676156 rows, 1596259 columns, and 4991577 nonzeros.
-Presolve time = 40.30 sec. (34056.57 ticks)
+Presolve time = 39.20 sec. (34056.57 ticks)
 Parallel mode: none, using 1 thread for barrier
 
 ***NOTE: Found 3 dense columns.
 
 Number of nonzeros in lower triangle of A*A' = 8902023
 Using Nested Dissection ordering
-Total time for automatic ordering = 6.42 sec. (4914.42 ticks)
+Total time for automatic ordering = 6.56 sec. (4914.42 ticks)
 Summary statistics for Cholesky factor:
   Rows in Factor            = 676159
   Integer space required    = 4760213
@@ -937,7 +940,7 @@ Summary statistics for Cholesky factor:
  125   7.3955684e+03   7.3955685e+03  6.99e-06  2.83e-10  2.52e-03  4.19e+09
  126   7.3955685e+03   7.3955685e+03  1.62e-06  1.60e-11  1.28e-04  8.23e+10
  127   7.3955685e+03   7.3955685e+03  4.82e-07  8.23e-13  6.42e-06  1.64e+12
-Barrier time = 506.76 sec. (1139347.19 ticks)
+Barrier time = 507.23 sec. (1139347.19 ticks)
 
 Primal crossover.
   Primal:  Fixing 1019543 variables.
@@ -974,7 +977,7 @@ Primal crossover.
    593156 PMoves:  Infeasibility  1.15792697e-03  Objective  7.39556852e+03
    582864 PMoves:  Infeasibility  1.22965368e-03  Objective  7.39556852e+03
    573088 PMoves:  Infeasibility  1.24495153e-03  Objective  7.39556852e+03
-   Elapsed crossover time = 6.89 sec. (10003.79 ticks, 573088 PMoves)
+   Elapsed crossover time = 6.95 sec. (10003.79 ticks, 573088 PMoves)
    562928 PMoves:  Infeasibility  1.23170072e-03  Objective  7.39556852e+03
    556967 PMoves:  Infeasibility  1.20874319e-03  Objective  7.39556852e+03
    555864 PMoves:  Infeasibility  1.20874319e-03  Objective  7.39556852e+03
@@ -1030,7 +1033,7 @@ Primal crossover.
    497333 PMoves:  Infeasibility  1.22423852e-03  Objective  7.39556852e+03
    386963 PMoves:  Infeasibility  1.23979927e-03  Objective  7.39556852e+03
    373357 PMoves:  Infeasibility  1.25008321e-03  Objective  7.39556852e+03
-   Elapsed crossover time = 20.11 sec. (20093.16 ticks, 373357 PMoves)
+   Elapsed crossover time = 20.17 sec. (20093.16 ticks, 373357 PMoves)
    360667 PMoves:  Infeasibility  1.24676532e-03  Objective  7.39556852e+03
    347241 PMoves:  Infeasibility  1.23989883e-03  Objective  7.39556852e+03
    334301 PMoves:  Infeasibility  1.18892378e-03  Objective  7.39556852e+03
@@ -1093,11 +1096,11 @@ Using devex.
 
 Iteration log . . .
 Iteration:     1    Objective     =          7395.568523
-Total crossover time = 78.47 sec. (58889.79 ticks)
+Total crossover time = 76.94 sec. (58889.79 ticks)
 
-Total time on 1 threads = 627.83 sec. (1233261.01 ticks)
+Total time on 1 threads = 625.50 sec. (1233261.01 ticks)
 LP status(1): optimal
-Cplex Time: 627.97sec (det. 1233359.53 ticks)
+Cplex Time: 625.64sec (det. 1233359.53 ticks)
 
 Optimal solution found.
 Simplex iterations after crossover:  61
@@ -1109,7 +1112,7 @@ Objective :        7395.568523
 --- Reading solution for model MELI
 --- MELI.gms(687) 5291 Mb  9 secs
 --- GDX Point C:\GAMS\win64\30.3\models\MELI\MELI_p3.gdx
---- Executing after solve: elapsed 0:53:05.027
+--- Executing after solve: elapsed 0:52:36.692
 --- MELI.gms(604) 5292 Mb  19 secs
 --- MELI.gms(926) 5292 Mb
 --- GDX File C:\GAMS\win64\30.3\models\MELI\GdxFiles\Results.gdx
@@ -1119,33 +1122,33 @@ Objective :        7395.568523
 GDXXRW           30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Window
 Input file : C:\GAMS\win64\30.3\models\MELI\GdxFiles\Results.gdx
 Output file: C:\GAMS\win64\30.3\models\MELI\Results\Results.xlsx
-Total time = 12031 Ms
+Total time = 13469 Ms
 --- MELI.gms(962) 5292 Mb
 --- MELI.gms(963) 5292 Mb
 --- MELI.gms(964) 5292 Mb
 --- MELI.gms(965) 5292 Mb
 --- MELI.gms(966) 5292 Mb
 --- MELI.gms(967) 5292 Mb
+"$call" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+"$call" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+"$call" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+"$call" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+"$call" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
 --- MELI.gms(968) 5292 Mb
+"$call" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
 --- MELI.gms(969) 5292 Mb
 --- MELI.gms(970) 5292 Mb
+*** Status: Normal completion
+--- Job MELI.gms Stop 01/12/23 22:39:17 elapsed 0:53:12.372
 "$call" no se reconoce como un comando interno o externo,
 programa o archivo por lotes ejecutable.
 "$call" no se reconoce como un comando interno o externo,
 programa o archivo por lotes ejecutable.
 "$call" no se reconoce como un comando interno o externo,
 programa o archivo por lotes ejecutable.
-"$call" no se reconoce como un comando interno o externo,
-programa o archivo por lotes ejecutable.
-"$call" no se reconoce como un comando interno o externo,
-programa o archivo por lotes ejecutable.
-"$call" no se reconoce como un comando interno o externo,
-programa o archivo por lotes ejecutable.
-"$call" no se reconoce como un comando interno o externo,
-programa o archivo por lotes ejecutable.
-"$call" no se reconoce como un comando interno o externo,
-programa o archivo por lotes ejecutable.
-*** Status: Normal completion"$call" no se reconoce como un comando interno o externo,
-programa o archivo por lotes ejecutable.
-
---- Job MELI.gms Stop 01/12/23 19:27:19 elapsed 0:53:39.484
