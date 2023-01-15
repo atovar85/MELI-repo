@@ -679,6 +679,9 @@ MELI.limcol=0;                     // reduces the size of the listing file
 MELI.solprint=0;                   // reduces the size of the listing file
 MELI.savepoint=2;                  // saves bases for every solve
 
+gams MELI.gms docfile=MELI
+
+
 *-----------------------------------
 * SOLVE THE MODEL
 *-----------------------------------
