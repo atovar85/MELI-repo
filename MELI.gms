@@ -3,7 +3,7 @@
 *---------------------------------------------------------------------------------------------------------------------------
 *---------------------------------------------------------------------------------------------------------------------------
 * This GAMS file is part of the Mexican Electricity Long-Term Investment
-* Model MELI, written by Alejandro Tovar-Garza.
+* Model MELI(PRO), written by Alejandro Tovar-Garza.
 * The model is published under the Creative Commons 3.0 BY-SA License
 * (http://creativecommons.org/licenses/by-sa/3.0/).
 * MELI builds upon the work of the European Electricity Market Model EMMA
